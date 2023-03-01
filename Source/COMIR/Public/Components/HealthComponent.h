@@ -41,25 +41,25 @@ public:
 	FOnUpdateHealthPercentage OnUpdateHealthPercentage;
 
 	// Variables
-	UPROPERTY(BlueprintAssignable, Category = "Health|Events")
+	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "Health")
 	float Health = 100;
 
 	// Functions
-	UPROPERTY(BlueprintCallable, BlueprintPure, Category = "Health|Functions")
+	UFUNCTION(BlueprintCallable, BlueprintPure, Category = "Health|Functions")
 	float GetCurrentHealth();
 
-	UPROPERTY(BlueprintCallable, BlueprintPure, Category = "Health|Functions")
+	UFUNCTION(BlueprintCallable, BlueprintPure, Category = "Health|Functions")
 	bool GetIsDead();
 
-	UPROPERTY(BlueprintCallable, BlueprintPure, Category = "Health|Functions")
+	UFUNCTION(BlueprintCallable, BlueprintPure, Category = "Health|Functions")
 	float GetCurrentHealthPercentage();
 
-	UPROPERTY(BlueprintCallable, BlueprintPure, Category = "Health|Functions")
+	UFUNCTION(BlueprintCallable, Category = "Health|Functions")
 	void HealPlayer(float Heal);
 
-	UPROPERTY(BlueprintCallable, BlueprintPure, Category = "Health|Functions")
+	UFUNCTION(BlueprintCallable, Category = "Health|Functions")
 	void ResetHealth();
 
-	UPROPERTY(BlueprintCallable, BlueprintPure, Category = "Health|Functions")
+	UFUNCTION(BlueprintCallable, Category = "Health|Functions")
 	void ChangeMaxHealth(float NewMaxHealth);
 };
