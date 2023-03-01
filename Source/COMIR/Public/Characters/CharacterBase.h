@@ -3,6 +3,7 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#include "Components/HealthComponent.h"
 #include "GameFramework/Character.h"
 #include "CharacterBase.generated.h"
 
@@ -10,6 +11,10 @@ UCLASS()
 class COMIR_API ACharacterBase : public ACharacter
 {
 	GENERATED_BODY()
+
+	// Health Component
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = Health, meta = (AllowPrivateAccess = "true"))
+	UHealthComponent* HealthComponent;
 
 public:
 	// Sets default values for this character's properties
