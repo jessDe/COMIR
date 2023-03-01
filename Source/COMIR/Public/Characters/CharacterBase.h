@@ -7,7 +7,7 @@
 #include "CharacterBase.generated.h"
 
 UCLASS()
-class COMINFNITYREVIVED_API ACharacterBase : public ACharacter
+class COMIR_API ACharacterBase : public ACharacter
 {
 	GENERATED_BODY()
 

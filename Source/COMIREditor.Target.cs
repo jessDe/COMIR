@@ -3,13 +3,13 @@
 using UnrealBuildTool;
 using System.Collections.Generic;
 
-public class CoMInfnityRevivedTarget : TargetRules
+public class COMIREditorTarget : TargetRules
 {
-	public CoMInfnityRevivedTarget( TargetInfo Target) : base(Target)
+	public COMIREditorTarget( TargetInfo Target) : base(Target)
 	{
-		Type = TargetType.Game;
+		Type = TargetType.Editor;
 		DefaultBuildSettings = BuildSettingsVersion.V2;
 		IncludeOrderVersion = EngineIncludeOrderVersion.Unreal5_1;
-		ExtraModuleNames.Add("CoMInfnityRevived");
+		ExtraModuleNames.Add("COMIR");
 	}
 }

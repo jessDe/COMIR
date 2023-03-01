@@ -3,4 +3,4 @@
 #include "CoMInfnityRevived.h"
 #include "Modules/ModuleManager.h"
 
-IMPLEMENT_PRIMARY_GAME_MODULE( FDefaultGameModuleImpl, CoMInfnityRevived, "CoMInfnityRevived" );
+IMPLEMENT_PRIMARY_GAME_MODULE( FDefaultGameModuleImpl, COMIR, "COMIR" );

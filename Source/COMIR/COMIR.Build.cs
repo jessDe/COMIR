@@ -2,9 +2,9 @@
 
 using UnrealBuildTool;
 
-public class CoMInfnityRevived : ModuleRules
+public class COMIR : ModuleRules
 {
-	public CoMInfnityRevived(ReadOnlyTargetRules Target) : base(Target)
+	public COMIR(ReadOnlyTargetRules Target) : base(Target)
 	{
 		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 	
