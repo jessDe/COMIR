@@ -1,0 +1,135 @@
+#include "ffx_fsr2_reconstruct_previous_depth_pass_16bit_09e729a9fc0aaddbf3dd784704ddc4e7.h"
+#include "ffx_fsr2_reconstruct_previous_depth_pass_16bit_8357203598411d75608ea7d7b71cd084.h"
+#include "ffx_fsr2_reconstruct_previous_depth_pass_16bit_2fb41387ee6c00a6bb9ee3bbe9421ba9.h"
+#include "ffx_fsr2_reconstruct_previous_depth_pass_16bit_c50339ec8d73d564c7e703d81a749fe4.h"
+#include "ffx_fsr2_reconstruct_previous_depth_pass_16bit_98f6606317d7f906008ed4f41395cff1.h"
+#include "ffx_fsr2_reconstruct_previous_depth_pass_16bit_bc30a6a26be6f9d37aa50343ad31802b.h"
+#include "ffx_fsr2_reconstruct_previous_depth_pass_16bit_f4c53a59b14f42372534b4ab188f0aeb.h"
+#include "ffx_fsr2_reconstruct_previous_depth_pass_16bit_b74ac427a33e9baf1eb19b4bd066d4b9.h"
+
+typedef union ffx_fsr2_reconstruct_previous_depth_pass_16bit_PermutationKey {
+    struct {
+        uint32_t FFX_FSR2_OPTION_REPROJECT_USE_LANCZOS_TYPE : 1;
+        uint32_t FFX_FSR2_OPTION_HDR_COLOR_INPUT : 1;
+        uint32_t FFX_FSR2_OPTION_LOW_RESOLUTION_MOTION_VECTORS : 1;
+        uint32_t FFX_FSR2_OPTION_JITTERED_MOTION_VECTORS : 1;
+        uint32_t FFX_FSR2_OPTION_INVERTED_DEPTH : 1;
+        uint32_t FFX_FSR2_OPTION_APPLY_SHARPENING : 1;
+    };
+    uint32_t index;
+} ffx_fsr2_reconstruct_previous_depth_pass_16bit_PermutationKey;
+
+typedef struct ffx_fsr2_reconstruct_previous_depth_pass_16bit_PermutationInfo {
+    const uint32_t       blobSize;
+    const unsigned char* blobData;
+
+
+    const uint32_t  numCBVResources;
+    const char**    cbvResourceNames;
+    const uint32_t* cbvResourceBindings;
+    const uint32_t* cbvResourceCounts;
+    const uint32_t* cbvResourceSpaces;
+
+    const uint32_t  numSRVResources;
+    const char**    srvResourceNames;
+    const uint32_t* srvResourceBindings;
+    const uint32_t* srvResourceCounts;
+    const uint32_t* srvResourceSpaces;
+
+    const uint32_t  numUAVResources;
+    const char**    uavResourceNames;
+    const uint32_t* uavResourceBindings;
+    const uint32_t* uavResourceCounts;
+    const uint32_t* uavResourceSpaces;
+
+    const uint32_t  numSamplerResources;
+    const char**    samplerResourceNames;
+    const uint32_t* samplerResourceBindings;
+    const uint32_t* samplerResourceCounts;
+    const uint32_t* samplerResourceSpaces;
+
+    const uint32_t  numRTAccelerationStructureResources;
+    const char**    rtAccelerationStructureResourceNames;
+    const uint32_t* rtAccelerationStructureResourceBindings;
+    const uint32_t* rtAccelerationStructureResourceCounts;
+    const uint32_t* rtAccelerationStructureResourceSpaces;
+} ffx_fsr2_reconstruct_previous_depth_pass_16bit_PermutationInfo;
+
+static const uint32_t g_ffx_fsr2_reconstruct_previous_depth_pass_16bit_IndirectionTable[] = {
+    6,
+    6,
+    6,
+    6,
+    2,
+    2,
+    2,
+    2,
+    5,
+    5,
+    5,
+    5,
+    0,
+    0,
+    0,
+    0,
+    4,
+    4,
+    4,
+    4,
+    1,
+    1,
+    1,
+    1,
+    7,
+    7,
+    7,
+    7,
+    3,
+    3,
+    3,
+    3,
+    6,
+    6,
+    6,
+    6,
+    2,
+    2,
+    2,
+    2,
+    5,
+    5,
+    5,
+    5,
+    0,
+    0,
+    0,
+    0,
+    4,
+    4,
+    4,
+    4,
+    1,
+    1,
+    1,
+    1,
+    7,
+    7,
+    7,
+    7,
+    3,
+    3,
+    3,
+    3,
+};
+
+static const ffx_fsr2_reconstruct_previous_depth_pass_16bit_PermutationInfo g_ffx_fsr2_reconstruct_previous_depth_pass_16bit_PermutationInfo[] = {
+    { g_ffx_fsr2_reconstruct_previous_depth_pass_16bit_09e729a9fc0aaddbf3dd784704ddc4e7_size, g_ffx_fsr2_reconstruct_previous_depth_pass_16bit_09e729a9fc0aaddbf3dd784704ddc4e7_data, 1, g_ffx_fsr2_reconstruct_previous_depth_pass_16bit_09e729a9fc0aaddbf3dd784704ddc4e7_CBVResourceNames, g_ffx_fsr2_reconstruct_previous_depth_pass_16bit_09e729a9fc0aaddbf3dd784704ddc4e7_CBVResourceBindings, g_ffx_fsr2_reconstruct_previous_depth_pass_16bit_09e729a9fc0aaddbf3dd784704ddc4e7_CBVResourceCounts, g_ffx_fsr2_reconstruct_previous_depth_pass_16bit_09e729a9fc0aaddbf3dd784704ddc4e7_CBVResourceSpaces, 5, g_ffx_fsr2_reconstruct_previous_depth_pass_16bit_09e729a9fc0aaddbf3dd784704ddc4e7_SRVResourceNames, g_ffx_fsr2_reconstruct_previous_depth_pass_16bit_09e729a9fc0aaddbf3dd784704ddc4e7_SRVResourceBindings, g_ffx_fsr2_reconstruct_previous_depth_pass_16bit_09e729a9fc0aaddbf3dd784704ddc4e7_SRVResourceCounts, g_ffx_fsr2_reconstruct_previous_depth_pass_16bit_09e729a9fc0aaddbf3dd784704ddc4e7_SRVResourceSpaces, 4, g_ffx_fsr2_reconstruct_previous_depth_pass_16bit_09e729a9fc0aaddbf3dd784704ddc4e7_UAVResourceNames, g_ffx_fsr2_reconstruct_previous_depth_pass_16bit_09e729a9fc0aaddbf3dd784704ddc4e7_UAVResourceBindings, g_ffx_fsr2_reconstruct_previous_depth_pass_16bit_09e729a9fc0aaddbf3dd784704ddc4e7_UAVResourceCounts, g_ffx_fsr2_reconstruct_previous_depth_pass_16bit_09e729a9fc0aaddbf3dd784704ddc4e7_UAVResourceSpaces, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, },
+    { g_ffx_fsr2_reconstruct_previous_depth_pass_16bit_8357203598411d75608ea7d7b71cd084_size, g_ffx_fsr2_reconstruct_previous_depth_pass_16bit_8357203598411d75608ea7d7b71cd084_data, 1, g_ffx_fsr2_reconstruct_previous_depth_pass_16bit_8357203598411d75608ea7d7b71cd084_CBVResourceNames, g_ffx_fsr2_reconstruct_previous_depth_pass_16bit_8357203598411d75608ea7d7b71cd084_CBVResourceBindings, g_ffx_fsr2_reconstruct_previous_depth_pass_16bit_8357203598411d75608ea7d7b71cd084_CBVResourceCounts, g_ffx_fsr2_reconstruct_previous_depth_pass_16bit_8357203598411d75608ea7d7b71cd084_CBVResourceSpaces, 5, g_ffx_fsr2_reconstruct_previous_depth_pass_16bit_8357203598411d75608ea7d7b71cd084_SRVResourceNames, g_ffx_fsr2_reconstruct_previous_depth_pass_16bit_8357203598411d75608ea7d7b71cd084_SRVResourceBindings, g_ffx_fsr2_reconstruct_previous_depth_pass_16bit_8357203598411d75608ea7d7b71cd084_SRVResourceCounts, g_ffx_fsr2_reconstruct_previous_depth_pass_16bit_8357203598411d75608ea7d7b71cd084_SRVResourceSpaces, 4, g_ffx_fsr2_reconstruct_previous_depth_pass_16bit_8357203598411d75608ea7d7b71cd084_UAVResourceNames, g_ffx_fsr2_reconstruct_previous_depth_pass_16bit_8357203598411d75608ea7d7b71cd084_UAVResourceBindings, g_ffx_fsr2_reconstruct_previous_depth_pass_16bit_8357203598411d75608ea7d7b71cd084_UAVResourceCounts, g_ffx_fsr2_reconstruct_previous_depth_pass_16bit_8357203598411d75608ea7d7b71cd084_UAVResourceSpaces, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, },
+    { g_ffx_fsr2_reconstruct_previous_depth_pass_16bit_2fb41387ee6c00a6bb9ee3bbe9421ba9_size, g_ffx_fsr2_reconstruct_previous_depth_pass_16bit_2fb41387ee6c00a6bb9ee3bbe9421ba9_data, 1, g_ffx_fsr2_reconstruct_previous_depth_pass_16bit_2fb41387ee6c00a6bb9ee3bbe9421ba9_CBVResourceNames, g_ffx_fsr2_reconstruct_previous_depth_pass_16bit_2fb41387ee6c00a6bb9ee3bbe9421ba9_CBVResourceBindings, g_ffx_fsr2_reconstruct_previous_depth_pass_16bit_2fb41387ee6c00a6bb9ee3bbe9421ba9_CBVResourceCounts, g_ffx_fsr2_reconstruct_previous_depth_pass_16bit_2fb41387ee6c00a6bb9ee3bbe9421ba9_CBVResourceSpaces, 5, g_ffx_fsr2_reconstruct_previous_depth_pass_16bit_2fb41387ee6c00a6bb9ee3bbe9421ba9_SRVResourceNames, g_ffx_fsr2_reconstruct_previous_depth_pass_16bit_2fb41387ee6c00a6bb9ee3bbe9421ba9_SRVResourceBindings, g_ffx_fsr2_reconstruct_previous_depth_pass_16bit_2fb41387ee6c00a6bb9ee3bbe9421ba9_SRVResourceCounts, g_ffx_fsr2_reconstruct_previous_depth_pass_16bit_2fb41387ee6c00a6bb9ee3bbe9421ba9_SRVResourceSpaces, 4, g_ffx_fsr2_reconstruct_previous_depth_pass_16bit_2fb41387ee6c00a6bb9ee3bbe9421ba9_UAVResourceNames, g_ffx_fsr2_reconstruct_previous_depth_pass_16bit_2fb41387ee6c00a6bb9ee3bbe9421ba9_UAVResourceBindings, g_ffx_fsr2_reconstruct_previous_depth_pass_16bit_2fb41387ee6c00a6bb9ee3bbe9421ba9_UAVResourceCounts, g_ffx_fsr2_reconstruct_previous_depth_pass_16bit_2fb41387ee6c00a6bb9ee3bbe9421ba9_UAVResourceSpaces, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, },
+    { g_ffx_fsr2_reconstruct_previous_depth_pass_16bit_c50339ec8d73d564c7e703d81a749fe4_size, g_ffx_fsr2_reconstruct_previous_depth_pass_16bit_c50339ec8d73d564c7e703d81a749fe4_data, 1, g_ffx_fsr2_reconstruct_previous_depth_pass_16bit_c50339ec8d73d564c7e703d81a749fe4_CBVResourceNames, g_ffx_fsr2_reconstruct_previous_depth_pass_16bit_c50339ec8d73d564c7e703d81a749fe4_CBVResourceBindings, g_ffx_fsr2_reconstruct_previous_depth_pass_16bit_c50339ec8d73d564c7e703d81a749fe4_CBVResourceCounts, g_ffx_fsr2_reconstruct_previous_depth_pass_16bit_c50339ec8d73d564c7e703d81a749fe4_CBVResourceSpaces, 5, g_ffx_fsr2_reconstruct_previous_depth_pass_16bit_c50339ec8d73d564c7e703d81a749fe4_SRVResourceNames, g_ffx_fsr2_reconstruct_previous_depth_pass_16bit_c50339ec8d73d564c7e703d81a749fe4_SRVResourceBindings, g_ffx_fsr2_reconstruct_previous_depth_pass_16bit_c50339ec8d73d564c7e703d81a749fe4_SRVResourceCounts, g_ffx_fsr2_reconstruct_previous_depth_pass_16bit_c50339ec8d73d564c7e703d81a749fe4_SRVResourceSpaces, 4, g_ffx_fsr2_reconstruct_previous_depth_pass_16bit_c50339ec8d73d564c7e703d81a749fe4_UAVResourceNames, g_ffx_fsr2_reconstruct_previous_depth_pass_16bit_c50339ec8d73d564c7e703d81a749fe4_UAVResourceBindings, g_ffx_fsr2_reconstruct_previous_depth_pass_16bit_c50339ec8d73d564c7e703d81a749fe4_UAVResourceCounts, g_ffx_fsr2_reconstruct_previous_depth_pass_16bit_c50339ec8d73d564c7e703d81a749fe4_UAVResourceSpaces, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, },
+    { g_ffx_fsr2_reconstruct_previous_depth_pass_16bit_98f6606317d7f906008ed4f41395cff1_size, g_ffx_fsr2_reconstruct_previous_depth_pass_16bit_98f6606317d7f906008ed4f41395cff1_data, 1, g_ffx_fsr2_reconstruct_previous_depth_pass_16bit_98f6606317d7f906008ed4f41395cff1_CBVResourceNames, g_ffx_fsr2_reconstruct_previous_depth_pass_16bit_98f6606317d7f906008ed4f41395cff1_CBVResourceBindings, g_ffx_fsr2_reconstruct_previous_depth_pass_16bit_98f6606317d7f906008ed4f41395cff1_CBVResourceCounts, g_ffx_fsr2_reconstruct_previous_depth_pass_16bit_98f6606317d7f906008ed4f41395cff1_CBVResourceSpaces, 5, g_ffx_fsr2_reconstruct_previous_depth_pass_16bit_98f6606317d7f906008ed4f41395cff1_SRVResourceNames, g_ffx_fsr2_reconstruct_previous_depth_pass_16bit_98f6606317d7f906008ed4f41395cff1_SRVResourceBindings, g_ffx_fsr2_reconstruct_previous_depth_pass_16bit_98f6606317d7f906008ed4f41395cff1_SRVResourceCounts, g_ffx_fsr2_reconstruct_previous_depth_pass_16bit_98f6606317d7f906008ed4f41395cff1_SRVResourceSpaces, 4, g_ffx_fsr2_reconstruct_previous_depth_pass_16bit_98f6606317d7f906008ed4f41395cff1_UAVResourceNames, g_ffx_fsr2_reconstruct_previous_depth_pass_16bit_98f6606317d7f906008ed4f41395cff1_UAVResourceBindings, g_ffx_fsr2_reconstruct_previous_depth_pass_16bit_98f6606317d7f906008ed4f41395cff1_UAVResourceCounts, g_ffx_fsr2_reconstruct_previous_depth_pass_16bit_98f6606317d7f906008ed4f41395cff1_UAVResourceSpaces, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, },
+    { g_ffx_fsr2_reconstruct_previous_depth_pass_16bit_bc30a6a26be6f9d37aa50343ad31802b_size, g_ffx_fsr2_reconstruct_previous_depth_pass_16bit_bc30a6a26be6f9d37aa50343ad31802b_data, 1, g_ffx_fsr2_reconstruct_previous_depth_pass_16bit_bc30a6a26be6f9d37aa50343ad31802b_CBVResourceNames, g_ffx_fsr2_reconstruct_previous_depth_pass_16bit_bc30a6a26be6f9d37aa50343ad31802b_CBVResourceBindings, g_ffx_fsr2_reconstruct_previous_depth_pass_16bit_bc30a6a26be6f9d37aa50343ad31802b_CBVResourceCounts, g_ffx_fsr2_reconstruct_previous_depth_pass_16bit_bc30a6a26be6f9d37aa50343ad31802b_CBVResourceSpaces, 5, g_ffx_fsr2_reconstruct_previous_depth_pass_16bit_bc30a6a26be6f9d37aa50343ad31802b_SRVResourceNames, g_ffx_fsr2_reconstruct_previous_depth_pass_16bit_bc30a6a26be6f9d37aa50343ad31802b_SRVResourceBindings, g_ffx_fsr2_reconstruct_previous_depth_pass_16bit_bc30a6a26be6f9d37aa50343ad31802b_SRVResourceCounts, g_ffx_fsr2_reconstruct_previous_depth_pass_16bit_bc30a6a26be6f9d37aa50343ad31802b_SRVResourceSpaces, 4, g_ffx_fsr2_reconstruct_previous_depth_pass_16bit_bc30a6a26be6f9d37aa50343ad31802b_UAVResourceNames, g_ffx_fsr2_reconstruct_previous_depth_pass_16bit_bc30a6a26be6f9d37aa50343ad31802b_UAVResourceBindings, g_ffx_fsr2_reconstruct_previous_depth_pass_16bit_bc30a6a26be6f9d37aa50343ad31802b_UAVResourceCounts, g_ffx_fsr2_reconstruct_previous_depth_pass_16bit_bc30a6a26be6f9d37aa50343ad31802b_UAVResourceSpaces, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, },
+    { g_ffx_fsr2_reconstruct_previous_depth_pass_16bit_f4c53a59b14f42372534b4ab188f0aeb_size, g_ffx_fsr2_reconstruct_previous_depth_pass_16bit_f4c53a59b14f42372534b4ab188f0aeb_data, 1, g_ffx_fsr2_reconstruct_previous_depth_pass_16bit_f4c53a59b14f42372534b4ab188f0aeb_CBVResourceNames, g_ffx_fsr2_reconstruct_previous_depth_pass_16bit_f4c53a59b14f42372534b4ab188f0aeb_CBVResourceBindings, g_ffx_fsr2_reconstruct_previous_depth_pass_16bit_f4c53a59b14f42372534b4ab188f0aeb_CBVResourceCounts, g_ffx_fsr2_reconstruct_previous_depth_pass_16bit_f4c53a59b14f42372534b4ab188f0aeb_CBVResourceSpaces, 5, g_ffx_fsr2_reconstruct_previous_depth_pass_16bit_f4c53a59b14f42372534b4ab188f0aeb_SRVResourceNames, g_ffx_fsr2_reconstruct_previous_depth_pass_16bit_f4c53a59b14f42372534b4ab188f0aeb_SRVResourceBindings, g_ffx_fsr2_reconstruct_previous_depth_pass_16bit_f4c53a59b14f42372534b4ab188f0aeb_SRVResourceCounts, g_ffx_fsr2_reconstruct_previous_depth_pass_16bit_f4c53a59b14f42372534b4ab188f0aeb_SRVResourceSpaces, 4, g_ffx_fsr2_reconstruct_previous_depth_pass_16bit_f4c53a59b14f42372534b4ab188f0aeb_UAVResourceNames, g_ffx_fsr2_reconstruct_previous_depth_pass_16bit_f4c53a59b14f42372534b4ab188f0aeb_UAVResourceBindings, g_ffx_fsr2_reconstruct_previous_depth_pass_16bit_f4c53a59b14f42372534b4ab188f0aeb_UAVResourceCounts, g_ffx_fsr2_reconstruct_previous_depth_pass_16bit_f4c53a59b14f42372534b4ab188f0aeb_UAVResourceSpaces, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, },
+    { g_ffx_fsr2_reconstruct_previous_depth_pass_16bit_b74ac427a33e9baf1eb19b4bd066d4b9_size, g_ffx_fsr2_reconstruct_previous_depth_pass_16bit_b74ac427a33e9baf1eb19b4bd066d4b9_data, 1, g_ffx_fsr2_reconstruct_previous_depth_pass_16bit_b74ac427a33e9baf1eb19b4bd066d4b9_CBVResourceNames, g_ffx_fsr2_reconstruct_previous_depth_pass_16bit_b74ac427a33e9baf1eb19b4bd066d4b9_CBVResourceBindings, g_ffx_fsr2_reconstruct_previous_depth_pass_16bit_b74ac427a33e9baf1eb19b4bd066d4b9_CBVResourceCounts, g_ffx_fsr2_reconstruct_previous_depth_pass_16bit_b74ac427a33e9baf1eb19b4bd066d4b9_CBVResourceSpaces, 5, g_ffx_fsr2_reconstruct_previous_depth_pass_16bit_b74ac427a33e9baf1eb19b4bd066d4b9_SRVResourceNames, g_ffx_fsr2_reconstruct_previous_depth_pass_16bit_b74ac427a33e9baf1eb19b4bd066d4b9_SRVResourceBindings, g_ffx_fsr2_reconstruct_previous_depth_pass_16bit_b74ac427a33e9baf1eb19b4bd066d4b9_SRVResourceCounts, g_ffx_fsr2_reconstruct_previous_depth_pass_16bit_b74ac427a33e9baf1eb19b4bd066d4b9_SRVResourceSpaces, 4, g_ffx_fsr2_reconstruct_previous_depth_pass_16bit_b74ac427a33e9baf1eb19b4bd066d4b9_UAVResourceNames, g_ffx_fsr2_reconstruct_previous_depth_pass_16bit_b74ac427a33e9baf1eb19b4bd066d4b9_UAVResourceBindings, g_ffx_fsr2_reconstruct_previous_depth_pass_16bit_b74ac427a33e9baf1eb19b4bd066d4b9_UAVResourceCounts, g_ffx_fsr2_reconstruct_previous_depth_pass_16bit_b74ac427a33e9baf1eb19b4bd066d4b9_UAVResourceSpaces, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, },
+};
+

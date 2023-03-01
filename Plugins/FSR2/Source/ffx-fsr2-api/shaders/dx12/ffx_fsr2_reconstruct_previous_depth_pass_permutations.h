@@ -1,0 +1,135 @@
+#include "ffx_fsr2_reconstruct_previous_depth_pass_7af8f2187e0e49528af87616aedec75e.h"
+#include "ffx_fsr2_reconstruct_previous_depth_pass_b8da9ac43d51f1356941eebf80e8c952.h"
+#include "ffx_fsr2_reconstruct_previous_depth_pass_5cf1133cfe17997e6874d41da916f535.h"
+#include "ffx_fsr2_reconstruct_previous_depth_pass_f8f21217afd697fcf867f4f82fba5504.h"
+#include "ffx_fsr2_reconstruct_previous_depth_pass_ce7d51b52bcd01a0106b0bcb07a49282.h"
+#include "ffx_fsr2_reconstruct_previous_depth_pass_7590a6f16c10ef1e4f08688e8fa5855e.h"
+#include "ffx_fsr2_reconstruct_previous_depth_pass_0cf46b24f2fe69906f5f131953ec133a.h"
+#include "ffx_fsr2_reconstruct_previous_depth_pass_ce9a7d1337d26b775ecfd85d7d3376a0.h"
+
+typedef union ffx_fsr2_reconstruct_previous_depth_pass_PermutationKey {
+    struct {
+        uint32_t FFX_FSR2_OPTION_REPROJECT_USE_LANCZOS_TYPE : 1;
+        uint32_t FFX_FSR2_OPTION_HDR_COLOR_INPUT : 1;
+        uint32_t FFX_FSR2_OPTION_LOW_RESOLUTION_MOTION_VECTORS : 1;
+        uint32_t FFX_FSR2_OPTION_JITTERED_MOTION_VECTORS : 1;
+        uint32_t FFX_FSR2_OPTION_INVERTED_DEPTH : 1;
+        uint32_t FFX_FSR2_OPTION_APPLY_SHARPENING : 1;
+    };
+    uint32_t index;
+} ffx_fsr2_reconstruct_previous_depth_pass_PermutationKey;
+
+typedef struct ffx_fsr2_reconstruct_previous_depth_pass_PermutationInfo {
+    const uint32_t       blobSize;
+    const unsigned char* blobData;
+
+
+    const uint32_t  numCBVResources;
+    const char**    cbvResourceNames;
+    const uint32_t* cbvResourceBindings;
+    const uint32_t* cbvResourceCounts;
+    const uint32_t* cbvResourceSpaces;
+
+    const uint32_t  numSRVResources;
+    const char**    srvResourceNames;
+    const uint32_t* srvResourceBindings;
+    const uint32_t* srvResourceCounts;
+    const uint32_t* srvResourceSpaces;
+
+    const uint32_t  numUAVResources;
+    const char**    uavResourceNames;
+    const uint32_t* uavResourceBindings;
+    const uint32_t* uavResourceCounts;
+    const uint32_t* uavResourceSpaces;
+
+    const uint32_t  numSamplerResources;
+    const char**    samplerResourceNames;
+    const uint32_t* samplerResourceBindings;
+    const uint32_t* samplerResourceCounts;
+    const uint32_t* samplerResourceSpaces;
+
+    const uint32_t  numRTAccelerationStructureResources;
+    const char**    rtAccelerationStructureResourceNames;
+    const uint32_t* rtAccelerationStructureResourceBindings;
+    const uint32_t* rtAccelerationStructureResourceCounts;
+    const uint32_t* rtAccelerationStructureResourceSpaces;
+} ffx_fsr2_reconstruct_previous_depth_pass_PermutationInfo;
+
+static const uint32_t g_ffx_fsr2_reconstruct_previous_depth_pass_IndirectionTable[] = {
+    7,
+    7,
+    7,
+    7,
+    1,
+    1,
+    1,
+    1,
+    4,
+    4,
+    4,
+    4,
+    3,
+    3,
+    3,
+    3,
+    6,
+    6,
+    6,
+    6,
+    0,
+    0,
+    0,
+    0,
+    5,
+    5,
+    5,
+    5,
+    2,
+    2,
+    2,
+    2,
+    7,
+    7,
+    7,
+    7,
+    1,
+    1,
+    1,
+    1,
+    4,
+    4,
+    4,
+    4,
+    3,
+    3,
+    3,
+    3,
+    6,
+    6,
+    6,
+    6,
+    0,
+    0,
+    0,
+    0,
+    5,
+    5,
+    5,
+    5,
+    2,
+    2,
+    2,
+    2,
+};
+
+static const ffx_fsr2_reconstruct_previous_depth_pass_PermutationInfo g_ffx_fsr2_reconstruct_previous_depth_pass_PermutationInfo[] = {
+    { g_ffx_fsr2_reconstruct_previous_depth_pass_7af8f2187e0e49528af87616aedec75e_size, g_ffx_fsr2_reconstruct_previous_depth_pass_7af8f2187e0e49528af87616aedec75e_data, 1, g_ffx_fsr2_reconstruct_previous_depth_pass_7af8f2187e0e49528af87616aedec75e_CBVResourceNames, g_ffx_fsr2_reconstruct_previous_depth_pass_7af8f2187e0e49528af87616aedec75e_CBVResourceBindings, g_ffx_fsr2_reconstruct_previous_depth_pass_7af8f2187e0e49528af87616aedec75e_CBVResourceCounts, g_ffx_fsr2_reconstruct_previous_depth_pass_7af8f2187e0e49528af87616aedec75e_CBVResourceSpaces, 5, g_ffx_fsr2_reconstruct_previous_depth_pass_7af8f2187e0e49528af87616aedec75e_SRVResourceNames, g_ffx_fsr2_reconstruct_previous_depth_pass_7af8f2187e0e49528af87616aedec75e_SRVResourceBindings, g_ffx_fsr2_reconstruct_previous_depth_pass_7af8f2187e0e49528af87616aedec75e_SRVResourceCounts, g_ffx_fsr2_reconstruct_previous_depth_pass_7af8f2187e0e49528af87616aedec75e_SRVResourceSpaces, 4, g_ffx_fsr2_reconstruct_previous_depth_pass_7af8f2187e0e49528af87616aedec75e_UAVResourceNames, g_ffx_fsr2_reconstruct_previous_depth_pass_7af8f2187e0e49528af87616aedec75e_UAVResourceBindings, g_ffx_fsr2_reconstruct_previous_depth_pass_7af8f2187e0e49528af87616aedec75e_UAVResourceCounts, g_ffx_fsr2_reconstruct_previous_depth_pass_7af8f2187e0e49528af87616aedec75e_UAVResourceSpaces, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, },
+    { g_ffx_fsr2_reconstruct_previous_depth_pass_b8da9ac43d51f1356941eebf80e8c952_size, g_ffx_fsr2_reconstruct_previous_depth_pass_b8da9ac43d51f1356941eebf80e8c952_data, 1, g_ffx_fsr2_reconstruct_previous_depth_pass_b8da9ac43d51f1356941eebf80e8c952_CBVResourceNames, g_ffx_fsr2_reconstruct_previous_depth_pass_b8da9ac43d51f1356941eebf80e8c952_CBVResourceBindings, g_ffx_fsr2_reconstruct_previous_depth_pass_b8da9ac43d51f1356941eebf80e8c952_CBVResourceCounts, g_ffx_fsr2_reconstruct_previous_depth_pass_b8da9ac43d51f1356941eebf80e8c952_CBVResourceSpaces, 5, g_ffx_fsr2_reconstruct_previous_depth_pass_b8da9ac43d51f1356941eebf80e8c952_SRVResourceNames, g_ffx_fsr2_reconstruct_previous_depth_pass_b8da9ac43d51f1356941eebf80e8c952_SRVResourceBindings, g_ffx_fsr2_reconstruct_previous_depth_pass_b8da9ac43d51f1356941eebf80e8c952_SRVResourceCounts, g_ffx_fsr2_reconstruct_previous_depth_pass_b8da9ac43d51f1356941eebf80e8c952_SRVResourceSpaces, 4, g_ffx_fsr2_reconstruct_previous_depth_pass_b8da9ac43d51f1356941eebf80e8c952_UAVResourceNames, g_ffx_fsr2_reconstruct_previous_depth_pass_b8da9ac43d51f1356941eebf80e8c952_UAVResourceBindings, g_ffx_fsr2_reconstruct_previous_depth_pass_b8da9ac43d51f1356941eebf80e8c952_UAVResourceCounts, g_ffx_fsr2_reconstruct_previous_depth_pass_b8da9ac43d51f1356941eebf80e8c952_UAVResourceSpaces, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, },
+    { g_ffx_fsr2_reconstruct_previous_depth_pass_5cf1133cfe17997e6874d41da916f535_size, g_ffx_fsr2_reconstruct_previous_depth_pass_5cf1133cfe17997e6874d41da916f535_data, 1, g_ffx_fsr2_reconstruct_previous_depth_pass_5cf1133cfe17997e6874d41da916f535_CBVResourceNames, g_ffx_fsr2_reconstruct_previous_depth_pass_5cf1133cfe17997e6874d41da916f535_CBVResourceBindings, g_ffx_fsr2_reconstruct_previous_depth_pass_5cf1133cfe17997e6874d41da916f535_CBVResourceCounts, g_ffx_fsr2_reconstruct_previous_depth_pass_5cf1133cfe17997e6874d41da916f535_CBVResourceSpaces, 5, g_ffx_fsr2_reconstruct_previous_depth_pass_5cf1133cfe17997e6874d41da916f535_SRVResourceNames, g_ffx_fsr2_reconstruct_previous_depth_pass_5cf1133cfe17997e6874d41da916f535_SRVResourceBindings, g_ffx_fsr2_reconstruct_previous_depth_pass_5cf1133cfe17997e6874d41da916f535_SRVResourceCounts, g_ffx_fsr2_reconstruct_previous_depth_pass_5cf1133cfe17997e6874d41da916f535_SRVResourceSpaces, 4, g_ffx_fsr2_reconstruct_previous_depth_pass_5cf1133cfe17997e6874d41da916f535_UAVResourceNames, g_ffx_fsr2_reconstruct_previous_depth_pass_5cf1133cfe17997e6874d41da916f535_UAVResourceBindings, g_ffx_fsr2_reconstruct_previous_depth_pass_5cf1133cfe17997e6874d41da916f535_UAVResourceCounts, g_ffx_fsr2_reconstruct_previous_depth_pass_5cf1133cfe17997e6874d41da916f535_UAVResourceSpaces, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, },
+    { g_ffx_fsr2_reconstruct_previous_depth_pass_f8f21217afd697fcf867f4f82fba5504_size, g_ffx_fsr2_reconstruct_previous_depth_pass_f8f21217afd697fcf867f4f82fba5504_data, 1, g_ffx_fsr2_reconstruct_previous_depth_pass_f8f21217afd697fcf867f4f82fba5504_CBVResourceNames, g_ffx_fsr2_reconstruct_previous_depth_pass_f8f21217afd697fcf867f4f82fba5504_CBVResourceBindings, g_ffx_fsr2_reconstruct_previous_depth_pass_f8f21217afd697fcf867f4f82fba5504_CBVResourceCounts, g_ffx_fsr2_reconstruct_previous_depth_pass_f8f21217afd697fcf867f4f82fba5504_CBVResourceSpaces, 5, g_ffx_fsr2_reconstruct_previous_depth_pass_f8f21217afd697fcf867f4f82fba5504_SRVResourceNames, g_ffx_fsr2_reconstruct_previous_depth_pass_f8f21217afd697fcf867f4f82fba5504_SRVResourceBindings, g_ffx_fsr2_reconstruct_previous_depth_pass_f8f21217afd697fcf867f4f82fba5504_SRVResourceCounts, g_ffx_fsr2_reconstruct_previous_depth_pass_f8f21217afd697fcf867f4f82fba5504_SRVResourceSpaces, 4, g_ffx_fsr2_reconstruct_previous_depth_pass_f8f21217afd697fcf867f4f82fba5504_UAVResourceNames, g_ffx_fsr2_reconstruct_previous_depth_pass_f8f21217afd697fcf867f4f82fba5504_UAVResourceBindings, g_ffx_fsr2_reconstruct_previous_depth_pass_f8f21217afd697fcf867f4f82fba5504_UAVResourceCounts, g_ffx_fsr2_reconstruct_previous_depth_pass_f8f21217afd697fcf867f4f82fba5504_UAVResourceSpaces, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, },
+    { g_ffx_fsr2_reconstruct_previous_depth_pass_ce7d51b52bcd01a0106b0bcb07a49282_size, g_ffx_fsr2_reconstruct_previous_depth_pass_ce7d51b52bcd01a0106b0bcb07a49282_data, 1, g_ffx_fsr2_reconstruct_previous_depth_pass_ce7d51b52bcd01a0106b0bcb07a49282_CBVResourceNames, g_ffx_fsr2_reconstruct_previous_depth_pass_ce7d51b52bcd01a0106b0bcb07a49282_CBVResourceBindings, g_ffx_fsr2_reconstruct_previous_depth_pass_ce7d51b52bcd01a0106b0bcb07a49282_CBVResourceCounts, g_ffx_fsr2_reconstruct_previous_depth_pass_ce7d51b52bcd01a0106b0bcb07a49282_CBVResourceSpaces, 5, g_ffx_fsr2_reconstruct_previous_depth_pass_ce7d51b52bcd01a0106b0bcb07a49282_SRVResourceNames, g_ffx_fsr2_reconstruct_previous_depth_pass_ce7d51b52bcd01a0106b0bcb07a49282_SRVResourceBindings, g_ffx_fsr2_reconstruct_previous_depth_pass_ce7d51b52bcd01a0106b0bcb07a49282_SRVResourceCounts, g_ffx_fsr2_reconstruct_previous_depth_pass_ce7d51b52bcd01a0106b0bcb07a49282_SRVResourceSpaces, 4, g_ffx_fsr2_reconstruct_previous_depth_pass_ce7d51b52bcd01a0106b0bcb07a49282_UAVResourceNames, g_ffx_fsr2_reconstruct_previous_depth_pass_ce7d51b52bcd01a0106b0bcb07a49282_UAVResourceBindings, g_ffx_fsr2_reconstruct_previous_depth_pass_ce7d51b52bcd01a0106b0bcb07a49282_UAVResourceCounts, g_ffx_fsr2_reconstruct_previous_depth_pass_ce7d51b52bcd01a0106b0bcb07a49282_UAVResourceSpaces, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, },
+    { g_ffx_fsr2_reconstruct_previous_depth_pass_7590a6f16c10ef1e4f08688e8fa5855e_size, g_ffx_fsr2_reconstruct_previous_depth_pass_7590a6f16c10ef1e4f08688e8fa5855e_data, 1, g_ffx_fsr2_reconstruct_previous_depth_pass_7590a6f16c10ef1e4f08688e8fa5855e_CBVResourceNames, g_ffx_fsr2_reconstruct_previous_depth_pass_7590a6f16c10ef1e4f08688e8fa5855e_CBVResourceBindings, g_ffx_fsr2_reconstruct_previous_depth_pass_7590a6f16c10ef1e4f08688e8fa5855e_CBVResourceCounts, g_ffx_fsr2_reconstruct_previous_depth_pass_7590a6f16c10ef1e4f08688e8fa5855e_CBVResourceSpaces, 5, g_ffx_fsr2_reconstruct_previous_depth_pass_7590a6f16c10ef1e4f08688e8fa5855e_SRVResourceNames, g_ffx_fsr2_reconstruct_previous_depth_pass_7590a6f16c10ef1e4f08688e8fa5855e_SRVResourceBindings, g_ffx_fsr2_reconstruct_previous_depth_pass_7590a6f16c10ef1e4f08688e8fa5855e_SRVResourceCounts, g_ffx_fsr2_reconstruct_previous_depth_pass_7590a6f16c10ef1e4f08688e8fa5855e_SRVResourceSpaces, 4, g_ffx_fsr2_reconstruct_previous_depth_pass_7590a6f16c10ef1e4f08688e8fa5855e_UAVResourceNames, g_ffx_fsr2_reconstruct_previous_depth_pass_7590a6f16c10ef1e4f08688e8fa5855e_UAVResourceBindings, g_ffx_fsr2_reconstruct_previous_depth_pass_7590a6f16c10ef1e4f08688e8fa5855e_UAVResourceCounts, g_ffx_fsr2_reconstruct_previous_depth_pass_7590a6f16c10ef1e4f08688e8fa5855e_UAVResourceSpaces, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, },
+    { g_ffx_fsr2_reconstruct_previous_depth_pass_0cf46b24f2fe69906f5f131953ec133a_size, g_ffx_fsr2_reconstruct_previous_depth_pass_0cf46b24f2fe69906f5f131953ec133a_data, 1, g_ffx_fsr2_reconstruct_previous_depth_pass_0cf46b24f2fe69906f5f131953ec133a_CBVResourceNames, g_ffx_fsr2_reconstruct_previous_depth_pass_0cf46b24f2fe69906f5f131953ec133a_CBVResourceBindings, g_ffx_fsr2_reconstruct_previous_depth_pass_0cf46b24f2fe69906f5f131953ec133a_CBVResourceCounts, g_ffx_fsr2_reconstruct_previous_depth_pass_0cf46b24f2fe69906f5f131953ec133a_CBVResourceSpaces, 5, g_ffx_fsr2_reconstruct_previous_depth_pass_0cf46b24f2fe69906f5f131953ec133a_SRVResourceNames, g_ffx_fsr2_reconstruct_previous_depth_pass_0cf46b24f2fe69906f5f131953ec133a_SRVResourceBindings, g_ffx_fsr2_reconstruct_previous_depth_pass_0cf46b24f2fe69906f5f131953ec133a_SRVResourceCounts, g_ffx_fsr2_reconstruct_previous_depth_pass_0cf46b24f2fe69906f5f131953ec133a_SRVResourceSpaces, 4, g_ffx_fsr2_reconstruct_previous_depth_pass_0cf46b24f2fe69906f5f131953ec133a_UAVResourceNames, g_ffx_fsr2_reconstruct_previous_depth_pass_0cf46b24f2fe69906f5f131953ec133a_UAVResourceBindings, g_ffx_fsr2_reconstruct_previous_depth_pass_0cf46b24f2fe69906f5f131953ec133a_UAVResourceCounts, g_ffx_fsr2_reconstruct_previous_depth_pass_0cf46b24f2fe69906f5f131953ec133a_UAVResourceSpaces, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, },
+    { g_ffx_fsr2_reconstruct_previous_depth_pass_ce9a7d1337d26b775ecfd85d7d3376a0_size, g_ffx_fsr2_reconstruct_previous_depth_pass_ce9a7d1337d26b775ecfd85d7d3376a0_data, 1, g_ffx_fsr2_reconstruct_previous_depth_pass_ce9a7d1337d26b775ecfd85d7d3376a0_CBVResourceNames, g_ffx_fsr2_reconstruct_previous_depth_pass_ce9a7d1337d26b775ecfd85d7d3376a0_CBVResourceBindings, g_ffx_fsr2_reconstruct_previous_depth_pass_ce9a7d1337d26b775ecfd85d7d3376a0_CBVResourceCounts, g_ffx_fsr2_reconstruct_previous_depth_pass_ce9a7d1337d26b775ecfd85d7d3376a0_CBVResourceSpaces, 5, g_ffx_fsr2_reconstruct_previous_depth_pass_ce9a7d1337d26b775ecfd85d7d3376a0_SRVResourceNames, g_ffx_fsr2_reconstruct_previous_depth_pass_ce9a7d1337d26b775ecfd85d7d3376a0_SRVResourceBindings, g_ffx_fsr2_reconstruct_previous_depth_pass_ce9a7d1337d26b775ecfd85d7d3376a0_SRVResourceCounts, g_ffx_fsr2_reconstruct_previous_depth_pass_ce9a7d1337d26b775ecfd85d7d3376a0_SRVResourceSpaces, 4, g_ffx_fsr2_reconstruct_previous_depth_pass_ce9a7d1337d26b775ecfd85d7d3376a0_UAVResourceNames, g_ffx_fsr2_reconstruct_previous_depth_pass_ce9a7d1337d26b775ecfd85d7d3376a0_UAVResourceBindings, g_ffx_fsr2_reconstruct_previous_depth_pass_ce9a7d1337d26b775ecfd85d7d3376a0_UAVResourceCounts, g_ffx_fsr2_reconstruct_previous_depth_pass_ce9a7d1337d26b775ecfd85d7d3376a0_UAVResourceSpaces, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, },
+};
+
